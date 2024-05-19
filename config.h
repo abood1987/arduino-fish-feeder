@@ -4,8 +4,11 @@ const int LED_PIN = 5;
 const int SERVO_FEED_TIME_MS = 1000;
 
 //-------------------
-const char WIFI_SSID[] = "AndroidAP4580"; 
-const char WIFI_PASS[] = "a0966281288";
+const char WIFI_SSID[] = ""; 
+const char WIFI_PASS[] = "";
+
+const char WIFI_SSID[] = ""; 
+const char WIFI_PASS[] = "";
 
 //------------------
 const char MQTT_SERVER[] = "broker.hivemq.com";
