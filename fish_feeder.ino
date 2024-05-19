@@ -4,6 +4,7 @@ void setup() {
   Serial.begin(9600);
   connectToWiFi();
   connectToMQTT();
+  setupTimeClient();
   attachServo();
   connectLed();
 }
